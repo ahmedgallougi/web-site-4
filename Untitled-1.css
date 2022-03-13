@@ -1,0 +1,205 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 168, 10);
+    direction: ltr;
+
+
+
+}
+body {
+    font-family: "chathurabold";
+    src: url("../font/chathura_bold_macroman/chachathura-bold-webfont.eot");
+    font-weight: normal;
+    font-style: normal;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    justify-self: stretch;
+    
+    
+    
+
+
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+
+}
+header{
+    background:#070707;
+    color: blanchedalmond;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #6795c0 5px solid;
+}
+header a{
+    color: rgb(240, 8, 8);
+    text-decoration: none;
+    font-size: 19px;
+
+
+}
+header li {
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+
+}
+header #brand{
+    float: right;
+
+
+
+}
+header #brand h1{
+    margin: 0;
+    color: #6795c0;
+
+
+}
+header nav{
+
+    float: left;
+    margin-top: 10px;
+}
+header .current a{
+    color: #2883d8;
+    font-weight: bold;
+
+
+}
+header a:hover{
+
+    color: aliceblue;
+    font-weight: bold;
+}
+#showcase{
+    min-height: 400px;
+    background: url(jar.zz.jpg)no-repeat center;
+    background-size: cover;
+}
+#newsletter{
+    padding: 15px;
+    color: rgb(48, 189, 224);
+    background: #070707;
+
+
+}
+#newsletter h1{
+
+    float: right;
+
+}
+#newsletter form
+{
+    float: left;
+    margin-top: 15px;
+}
+#newsletter input [type="email"]{
+
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button{
+    height: 22px;
+    background: #e0ba0e;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(14, 133, 212);
+
+
+}
+#boxes{
+    margin-top: px;
+
+
+}
+#boxes .box{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+
+}
+footer{
+    padding: 21px;
+    margin-top: 20px;
+    color: beige;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bol;
+    font-size: 20px;
+
+}
+.box img {
+    grid-column-start: 2;
+    grid-column-end: 5 ;
+    grid-row-start: row 1- start 3 ;
+    grid-row-end: 3;
+    
+    
+}
+@media(max-width:768px){
+
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+hrader{
+    padding-bottom: 20px;
+
+}
+#newsletter .button{
+display: block;
+width: 100%;
+
+
+}
+#newsletter form input [taype="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
